@@ -1,0 +1,22 @@
+{
+    "name": "netforemost/properties-api",
+    "authors": [
+        {
+            "name": "VictorManuelDiaz",
+            "email": "i.aint.victor@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.9",
+        "slim/psr7": "^1.7",
+        "nyholm/psr7": "^1.8",
+        "tecnickcom/tcpdf": "^6.7",
+        "vlucas/phpdotenv": "^5.6",
+        "php-di/php-di": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

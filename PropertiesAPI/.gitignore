@@ -1,0 +1,63 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# PHPStorm project files
+/.idea/
+
+# Laravel specific
+/storage/
+/vendor/
+/.env
+
+# Symfony specific
+/app/config/parameters.yml
+/var/
+/vendor/
+/.env
+
+# Zend Framework specific
+/data/cache/
+/data/logs/
+/vendor/
+
+# Cache and logs
+/cache/
+/logs/
+
+# PHPUnit
+.phpunit.result.cache
+
+# Ignore sensitive files and configurations
+.env
+.env.local
+.env.development
+.env.testing
+.env.production
+
+# Ignore node_modules if using Node.js for frontend dependencies
+/node_modules/
+
+# Ignore build artifacts
+/build/
+/dist/
+/*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+/.vscode/
+/.idea/
+/nbproject/
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore other unwanted files
+*.swp
+*.bak
+*.tmp
+*.backup
+*.cache
+*.log

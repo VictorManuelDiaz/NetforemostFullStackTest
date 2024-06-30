@@ -1,0 +1,53 @@
+DROP DATABASE IF EXISTS db_property;
+CREATE DATABASE db_property;
+
+USE db_property;
+
+DROP TABLE IF EXISTS db_property.tbl_house;
+CREATE TABLE db_property.tbl_house (
+	tbl_house_id INT NOT NULL AUTO_INCREMENT,
+    latitude DECIMAL(10, 8),
+    longitude DECIMAL(11, 8),
+    id INT NOT NULL,
+    title VARCHAR(255),
+    advertiser VARCHAR(255),
+    description TEXT,
+    is_renovated  BOOLEAN,
+    phones VARCHAR(15),
+    type VARCHAR(30),
+    price DECIMAL(15, 2),
+    price_per_square_meter DECIMAL(15, 2),
+    address VARCHAR(255),
+    province VARCHAR(100),
+    city VARCHAR(100),
+    square_meters INT,
+    bedrooms INT,
+    bathrooms INT,
+    has_parking BOOLEAN,
+    is_second_hand BOOLEAN,
+    has_built_in_cupboards BOOLEAN,
+    built_in YEAR,
+    is_furnished BOOLEAN,
+    individual_heating VARCHAR(60),
+	energy_certification VARCHAR(50),
+    floor INT,
+    is_outdoor BOOLEAN,
+    is_indoor BOOLEAN,
+    has_elevator BOOLEAN,
+    house_date DATE,
+    street VARCHAR(155),
+    neighborhood VARCHAR(100),
+	district VARCHAR(100),
+    has_terrace BOOLEAN,
+	has_storage_room BOOLEAN,
+    has_equipped_kitchen BOOLEAN,
+    has_air_conditioning BOOLEAN,
+    has_swimming_pool BOOLEAN,
+    has_garden BOOLEAN,
+    useful_square_meters INT,
+    is_accessible BOOLEAN,
+    floors_number INT,
+    has_pets_allowed BOOLEAN,
+    has_balcony BOOLEAN,
+    PRIMARY KEY (tbl_house_id)
+);
